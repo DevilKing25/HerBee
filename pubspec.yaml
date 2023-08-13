@@ -1,0 +1,238 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/image-1.png
+    - assets/page-1/images/group-1.png
+    - assets/page-1/images/imgboxduotoneline.png
+    - assets/page-1/images/group-5.png
+    - assets/page-1/images/vector-91.png
+    - assets/page-1/images/anthurium-5-1-1-bg.png
+    - assets/page-1/images/iphone-status-barupper.png
+    - assets/page-1/images/userlight.png
+    - assets/page-1/images/keyaltlight-9i9.png
+    - assets/page-1/images/userlight-vCy.png
+    - assets/page-1/images/auto-group-bzrw.png
+    - assets/page-1/images/filteraltlight.png
+    - assets/page-1/images/viewaltlight.png
+    - assets/page-1/images/timelight.png
+    - assets/page-1/images/vector-92.png
+    - assets/page-1/images/addringlight.png
+    - assets/page-1/images/vector-93.png
+    - assets/page-1/images/searchaltlight.png
+    - assets/page-1/images/keyaltlight.png
+    - assets/page-1/images/timelight-RyB.png
+    - assets/page-1/images/vector-90.png
+    - assets/page-1/images/keyaltlight-K53.png
+    - assets/page-1/images/rectangle-1-bg.png
+    - assets/page-1/images/rectangle-66.png
+    - assets/page-1/images/ellipse-154.png
+    - assets/page-1/images/viewaltlight-KAy.png
+    - assets/page-1/images/vector-285.png
+    - assets/page-1/images/linkalt.png
+    - assets/page-1/images/closeround.png
+    - assets/page-1/images/cloudaltlight.png
+    - assets/page-1/images/rectangle-48-bg.png
+    - assets/page-1/images/group-1-xqo.png
+    - assets/page-1/images/timelight-QrM.png
+    - assets/page-1/images/ellipse-164.png
+    - assets/page-1/images/image-2.png
+    - assets/page-1/images/auto-group-55gb.png
+    - assets/page-1/images/iphone-status-barupper-5GV.png
+    - assets/page-1/images/message.png
+    - assets/page-1/images/image-24.png
+    - assets/page-1/images/rectangle-46-bg.png
+    - assets/page-1/images/searchaltlight-pm7.png
+    - assets/page-1/images/image-3.png
+    - assets/page-1/images/image-7.png
+    - assets/page-1/images/image-6.png
+    - assets/page-1/images/rectangle-62.png
+    - assets/page-1/images/timelight-Szu.png
+    - assets/page-1/images/image-18.png
+    - assets/page-1/images/cloudaltlight-chF.png
+    - assets/page-1/images/image-15.png
+    - assets/page-1/images/image-20.png
+    - assets/page-1/images/expandrightlight.png
+    - assets/page-1/images/rectangle-45-bg.png
+    - assets/page-1/images/rectangle-65-bg.png
+    - assets/page-1/images/rectangle-1.png
+    - assets/page-1/images/ellipse-152.png
+    - assets/page-1/images/humidity.png
+    - assets/page-1/images/image-4.png
+    - assets/page-1/images/image-23.png
+    - assets/page-1/images/ellipse-165.png
+    - assets/page-1/images/image-5.png
+    - assets/page-1/images/widgetalt.png
+    - assets/page-1/images/image-4-AAm.png
+    - assets/page-1/images/humidity-tcZ.png
+    - assets/page-1/images/filteraltlight-coT.png
+    - assets/page-1/images/delllight.png
+    - assets/page-1/images/image-11.png
+    - assets/page-1/images/rectangle-47-bg.png
+    - assets/page-1/images/rectangle-3971.png
+    - assets/page-1/images/ellipse-151.png
+    - assets/page-1/images/expandrightlight-5Wq.png
+    - assets/page-1/images/expandrightlight-QDf.png
+    - assets/page-1/images/expandrightlight-Jpq.png
+    - assets/page-1/images/iphone-status-barupper-o2q.png
+    - assets/page-1/images/rectangle-3959.png
+    - assets/page-1/images/iphone-status-barupper-ykM.png
+    - assets/page-1/images/auto-group-aajq.png
+    - assets/page-1/images/auto-group-2wyo.png
+    - assets/page-1/images/ellipse-153.png
+    - assets/page-1/images/image-14.png
+    - assets/page-1/images/image-8.png
+    - assets/page-1/images/addringlight-FSR.png
+    - assets/page-1/images/linkalt-CMf.png
+    - assets/page-1/images/rectangle-3961.png
+    - assets/page-1/images/filteraltlight-sCu.png
+    - assets/page-1/images/image-9.png
+    - assets/page-1/images/rectangle-3961-3Fo.png
+    - assets/page-1/images/cloudlight.png
+    - assets/page-1/images/iphone-status-barupper-i6d.png
+    - assets/page-1/images/ellipse-155.png
+    - assets/page-1/images/iphone-status-barupper-oZ3.png
+    - assets/page-1/images/closeround-Jfb.png
+    - assets/page-1/images/line-10.png
+    - assets/page-1/images/expandrightlight-h5T.png
+    - assets/page-1/images/rectangle-65.png
+    - assets/page-1/images/ellipse-156.png
+    - assets/page-1/images/rectangle-53.png
+    - assets/page-1/images/rectangle-54.png
+    - assets/page-1/images/rectangle-55.png
+    - assets/page-1/images/expandleft.png
+    - assets/page-1/images/expanduplight.png
+    - assets/page-1/images/auto-group-a3hq.png
+    - assets/page-1/images/rectangle-55-DnH.png
+    - assets/page-1/images/delalt.png
+    - assets/page-1/images/expandleft-yE9.png
+    - assets/page-1/images/rectangle-52.png
+    - assets/page-1/images/auto-group-qygb.png
+    - assets/page-1/images/rectangle-63.png
+    - assets/page-1/images/cloudaltlight-kTB.png
+    - assets/page-1/images/delalt-XPP.png
+    - assets/page-1/images/delalt-5A1.png
+    - assets/page-1/images/ellipse-166.png
+    - assets/page-1/images/expandrightlight-RCV.png
+    - assets/page-1/images/delllight-Y5P.png
+    - assets/page-1/images/vector-286.png
+    - assets/page-1/images/expandrightlight-rM7.png
+    - assets/page-1/images/rectangle-3959-2vV.png
+    - assets/page-1/images/settinglinelight.png
+    - assets/page-1/images/iphone-status-barupper-dCM.png
+    - assets/page-1/images/ellipse-165-Xe1.png
+    - assets/page-1/images/rectangle-51.png
+    - assets/page-1/images/rectangle-64.png
+    - assets/page-1/images/ellipse-168-bg.png
+    - assets/page-1/images/image-18-WCH.png
+    - assets/page-1/images/vector-286-v17.png
+    - assets/page-1/images/vector-92-y4D.png
+    - assets/page-1/images/rectangle-49-bg.png
+    - assets/page-1/images/vector-90-1qT.png
+    - assets/page-1/images/image-28.png
+    - assets/page-1/images/pngegg-2-1.png
+    - assets/page-1/images/vector-91-4Pb.png
+    - assets/page-1/images/pngegg-8-1.png
+    - assets/page-1/images/pngegg-1.png
+    - assets/page-1/images/pngegg-6-1.png
+    - assets/page-1/images/vector-93-cNm.png
+    - assets/page-1/images/iphone-status-barupper-5hb.png
+    - assets/page-1/images/image-29.png
+    - assets/page-1/images/image-30.png
+    - assets/page-1/images/pngegg-2.png
+    - assets/page-1/images/pngegg-14-1-bg.png
+    - assets/page-1/images/iphone-status-barupper-MT7.png
+    - assets/page-1/images/pngegg-10-1.png
+    - assets/page-1/images/pngegg-11-1.png
+    - assets/page-1/images/pngegg-12-1.png
+    - assets/page-1/images/pngegg-13-1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
